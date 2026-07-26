@@ -1,0 +1,32 @@
+model:
+  id: Qwen/Qwen3-0.6B
+  max_length: 256
+
+data:
+  train_file: data/examples/swedish_slang_train_seed.jsonl
+  validation_file: data/examples/swedish_slang_validation_seed.jsonl
+
+quantization:
+  quant_type: nf4
+  double_quant: true
+  compute_dtype: bfloat16
+
+lora:
+  rank: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: all-linear
+
+training:
+  epochs: 8
+  learning_rate: 0.0002
+  train_batch_size: 1
+  eval_batch_size: 1
+  gradient_accumulation_steps: 2
+  warmup_ratio: 0.1
+  seed: 42
+
+output:
+  run_directory: outputs/swedish-seed-run
+  adapter_directory: outputs/swedish-seed-run/final-adapter
+  metrics_file: outputs/swedish-seed-run/metrics.json
