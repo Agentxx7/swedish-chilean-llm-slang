@@ -36,3 +36,6 @@ data/validation/*
 .vscode/
 .idea/
 .DS_Store
+# Public synthetic datasets
+!data/train/scanian_malmo_train.jsonl
+!data/validation/scanian_malmo_validation.jsonl
