@@ -1,0 +1,11 @@
+model:
+  id: Qwen/Qwen3-0.6B
+  dtype: bfloat16
+  max_new_tokens: 100
+
+generation:
+  do_sample: false
+  repetition_penalty: 1.05
+
+output:
+  file: outputs/baseline-results.json

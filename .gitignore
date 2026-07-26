@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtuell miljö
+.venv/
+
+# Modellcache
+.cache/
+huggingface/
+models/
+
+# Träningsresultat och checkpoints
+outputs/*
+checkpoints/
+runs/
+wandb/
+
+# Riktiga lokala dataset
+data/train/*
+data/validation/*
+
+# Behåll tomma kataloger i Git
+!data/train/.gitkeep
+!data/validation/.gitkeep
+!outputs/.gitkeep
+
+# Hemligheter
+.env
+*.token
+*.secret
+
+# Editor
+.vscode/
+.idea/
+.DS_Store

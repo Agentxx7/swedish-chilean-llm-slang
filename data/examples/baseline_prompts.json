@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sv-neutral-to-slang-01",
+    "language": "sv-SE",
+    "style": "slang",
+    "intensity": "medium",
+    "system": "Svara med naturlig svensk vardagsslang. Behåll betydelsen och överdriv inte.",
+    "user": "Jag förstår inte vad den där killen håller på med."
+  },
+  {
+    "id": "sv-neutral-to-slang-02",
+    "language": "sv-SE",
+    "style": "slang",
+    "intensity": "medium",
+    "system": "Svara med naturlig svensk vardagsslang. Behåll betydelsen och överdriv inte.",
+    "user": "Det där verkar inte vara en särskilt bra idé."
+  },
+  {
+    "id": "sv-formal-control-01",
+    "language": "sv-SE",
+    "style": "formal",
+    "intensity": "none",
+    "system": "Svara på korrekt och formell svenska utan slang.",
+    "user": "Förklara att jag ännu inte har fått beslutet."
+  },
+  {
+    "id": "cl-neutral-to-slang-01",
+    "language": "es-CL",
+    "style": "coloquial",
+    "intensity": "medium",
+    "system": "Responde en español chileno coloquial y natural. Conserva el significado y no exageres.",
+    "user": "No entiendo qué está haciendo ese tipo."
+  },
+  {
+    "id": "cl-neutral-to-slang-02",
+    "language": "es-CL",
+    "style": "coloquial",
+    "intensity": "medium",
+    "system": "Responde en español chileno coloquial y natural. Conserva el significado y no exageres.",
+    "user": "Esa no parece ser una idea muy buena."
+  },
+  {
+    "id": "cl-formal-control-01",
+    "language": "es-CL",
+    "style": "formal",
+    "intensity": "none",
+    "system": "Responde en español formal y sin modismos.",
+    "user": "Explica que todavía no he recibido la resolución."
+  }
+]
